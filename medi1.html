@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            background-color: #009688;
+            color: #fff;
+            padding: 20px 0;
+            margin: 0;
+        }
+        
+        .medicine-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .medicine {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        .medicine img {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+
+        .medicine-details {
+            flex-grow: 1;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0;
+            color: #666;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #009688;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header>
+	<nav class="nav container bg-black" style="background-color:black;height:50px;">
+        <img src="do2.jpeg" width="50px" height="50px"  style="border-radius:50%;">
+          <h2 class="nav_logo"><a href="#">DISEASE PREDICTION</a></h2>
+
+          <ul class="menu_items">
+           
+            <li><a href="home.html" class="nav_link">PREDICT_DISEASE</a></li>
+            <li><a href="home.html" class="nav_link">LIST_OF_DISEASES</a></li>
+            <li><a href="medi1.html" class="medi1.html">MEDICINE</a></li>
+            <li><a href="doct.html" class="">DOCTORS</a></li>
+            <li><a href="prediction.html" class="">DASHBOARD</a></li>
+            <li><a href="user.html" class="user.html">USER_DETAILS</a></li>
+            <li><a href="index.html" class="index.html">LOGOUT</a></li>
+          </ul>
+         
+        </nav>
+      </header>
+      <div class="row1">
+  
+  
+    </div>
+    
+    <h1>Medicine List</h1>
+    
+ <div class="search-container" style="margin-top:;">
+            <input type="text" id="searchInput" placeholder="Search for a specific medicine...">
+            <button onclick="searchMedicine()">Search</button>
+        </div>
+    <div class="medicine-container">
+        <!-- Medicine 1 -->
+        <div class="medicine">
+            <img src="cetrizen.jpeg" alt="Medicine 1">
+            <div class="medicine-details">
+                <h2>Cold Tablets</h2>
+                <p>Manufacturing Date: January 1, 2023</p>
+                <p>Cost: $10.00</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 2 -->
+        <div class="medicine">
+            <img src="/home/rguktongole/sriramase/login/sari.jpeg" alt="Medicine 2">
+            <div class="medicine-details">
+                <h2>Headache Relief</h2>
+                <p>Manufacturing Date: February 15, 2023</p>
+                <p>Cost: $15.50</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 3 -->
+        <div class="medicine">
+            <img src="para.jpeg" alt="Medicine 3">
+            <div class="medicine-details">
+                <h2>Fever Reducer</h2>
+                <p>Manufacturing Date: March 10, 2023</p>
+                <p>Cost: $12.75</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 4 -->
+        <div class="medicine">
+            <img src="pain.jpeg" alt="Medicine 4">
+            <div class="medicine-details">
+                <h2>Pain Relief</h2>
+                <p>Manufacturing Date: April 5, 2023</p>
+                <p>Cost: $18.25</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 5 -->
+        <div class="medicine">
+            <img src="ele.jpeg" alt="Medicine 5">
+            <div class="medicine-details">
+                <h2>Allergy Medication</h2>
+                <p>Manufacturing Date: May 20, 2023</p>
+                <p>Cost: $9.99</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+            <div class="medicine-container">
+        <!-- Medicine 1 -->
+        <div class="medicine">
+            <img src="cetrizen.jpeg" alt="Medicine 1">
+            <div class="medicine-details">
+                <h2>Cold Tablets</h2>
+                <p>Manufacturing Date: January 1, 2023</p>
+                <p>Cost: $10.00</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 2 -->
+        <div class="medicine">
+            <img src="/home/rguktongole/sriramase/login/sari.jpeg" alt="Medicine 2">
+            <div class="medicine-details">
+                <h2>Headache Relief</h2>
+                <p>Manufacturing Date: February 15, 2023</p>
+                <p>Cost: $15.50</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 3 -->
+        <div class="medicine">
+            <img src="para.jpeg" alt="Medicine 3">
+            <div class="medicine-details">
+                <h2>Fever Reducer</h2>
+                <p>Manufacturing Date: March 10, 2023</p>
+                <p>Cost: $12.75</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 4 -->
+        <div class="medicine">
+            <img src="pain.jpeg" alt="Medicine 4">
+            <div class="medicine-details">
+                <h2>Pain Relief</h2>
+                <p>Manufacturing Date: April 5, 2023</p>
+                <p>Cost: $18.25</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Medicine 5 -->
+        <div class="medicine">
+            <img src="ele.jpeg" alt="Medicine 5">
+            <div class="medicine-details">
+                <h2>Allergy Medication</h2>
+                <p>Manufacturing Date: May 20, 2023</p>
+                <p>Cost: $9.99</p>
+                <!-- Add more details here -->
+            </div>
+        </div>
+
+        <!-- Continue adding medicines here... -->
+
+    </div>
+
+    <script>
+        function searchMedicine() {
+            var input, filter, medicines, medicine, i, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toUpperCase();
+            medicines = document.querySelectorAll(".medicine");
+            for (i = 0; i < medicines.length; i++) {
+                medicine = medicines[i];
+                txtValue = medicine.textContent || medicine.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    medicine.style.display = "";
+                } else {
+                    medicine.style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
